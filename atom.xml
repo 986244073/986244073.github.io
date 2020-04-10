@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://986244073.github.io</id>
     <title>Gridea</title>
-    <updated>2020-03-07T10:54:39.865Z</updated>
+    <updated>2020-04-10T04:04:44.216Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://986244073.github.io"/>
     <link rel="self" href="http://986244073.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>http://986244073.github.io/images/avatar.png</logo>
     <icon>http://986244073.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Node fs 模块的文件读取]]></title>
+        <id>http://986244073.github.io/post/node-fs-mo-kuai-de-wen-jian-du-qu/</id>
+        <link href="http://986244073.github.io/post/node-fs-mo-kuai-de-wen-jian-du-qu/">
+        </link>
+        <updated>2020-04-10T04:02:46.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="读文件">读文件</h2>
+<pre><code class="language-js"> let article = []
+  fs.readFile('1.json', function (error, data) {
+    if (error) {
+         console.log('读取文件失败')     } else {
+        article = JSON.parse(data)
+        console.log(article.length)
+    }
+ })
+</code></pre>
+<h2 id="写文件">写文件</h2>
+<pre><code class="language-js">   fs.writeFile(`${title}.txt`, content, function (error) {
+                    if (error) {
+                        console.log('失败)
+                    } else {
+                        console.log(content)
+                    }
+                }
+    )
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>http://986244073.github.io/post/hello-gridea/</id>
