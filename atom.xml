@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://986244073.github.io</id>
+    <title>我的生活成长记录</title>
+    <updated>2023-06-01T13:49:49.625Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://986244073.github.io"/>
+    <link rel="self" href="https://986244073.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://986244073.github.io/images/avatar.png</logo>
+    <icon>https://986244073.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 我的生活成长记录</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello 欢迎来到我的blog]]></title>
+        <id>https://986244073.github.io/post/hello-gridea/</id>
+        <link href="https://986244073.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>在这里我主要和大家分享我的学习记录 成长经历~~</p>
+]]></content>
+    </entry>
+</feed>
